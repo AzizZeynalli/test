@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxMDAyIiwiaWQiOiI2NGM2YjZlNWVmZjdmM2UzMTY5NjJjYTAiLCJpYXQiOjE2OTA3NDQ1NjcsImV4cCI6MTY5MDc0ODE2N30.y6IQ5EAHspLDymebQW_EexoNtWFJd8f3Ri-bavc-XxU
+
+{
+    "title": "How to be a great leader",
+    "author": "Genry Mike",
+    "url": "www.leadership.com/greatleader",
+    "likes": 2931
+}
